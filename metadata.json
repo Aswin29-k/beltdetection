@@ -1,0 +1,6 @@
+{
+  "name": "BeltGuard AI - Conveyor Monitoring System",
+  "description": "AI-powered industrial conveyor belt monitoring agent with ESP32-CAM laser triangulation, inductive joint tracking, predictive maintenance, and servo defect marking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
