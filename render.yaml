@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: beltguard-ai
+    runtime: node
+    plan: free
+    buildCommand: yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
